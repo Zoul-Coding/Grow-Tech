@@ -491,7 +491,7 @@ footer {
 }
 
 .container-actu a {
-   color: rgb(199, 198, 198);
+    color: rgb(199, 198, 198);
    margin-top: 20px;
    font-size: 13px;
 }
@@ -631,7 +631,10 @@ footer {
 }
 
 .info {
-    padding: 30px 50px;
+    padding: 50px 50px;
+    margin: 20px;
+    background: #f7f7f7;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .info i {
@@ -766,19 +769,20 @@ form button {
     nav ul {
         max-height: 0;
         background: #fff;
-        height: 500px;
     }
 
     .menu {
         max-height: 20em;
         transition: 0.80s;
+        border-bottom: 1px solid #f1f1f1;
     }
 
     nav ul li {
-        width: 100%;
-        text-align: center;
-        padding: 20px 0;
-        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 20px;
     }
 
     nav ul li a {
